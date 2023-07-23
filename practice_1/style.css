@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1500px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coy-logo {
+    margin-top: 50px;
+}
+
+.nav-menu {
+    margin-top: 60px;
+}
+
+.nav-links {
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-links:hover {
+    color: red;
+}
+
+main {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.sub-main {
+    display: flex;
+}
+
+#rm-btn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.sub-mainp {
+    color: rgba(000, 000, 000, 0.5);
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-section {
+    display: flex;
+}
