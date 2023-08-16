@@ -5,7 +5,7 @@
 }
 
 body {
-    max-width: 1500px;
+    max-width: 100%;
 }
 
 header nav {
@@ -67,3 +67,249 @@ section {
 .sub-section {
     display: flex;
 }
+
+
+
+
+
+/************** MEDIA QUERIES *********************/
+/************** MEDIA QUERIES *********************/
+/************** MEDIA QUERIES *********************/
+
+
+/**************** for large screens ***************/
+@media (min-width: 1200px) {
+}
+ 
+/**************** For medium screens ***************/
+@media (min-width: 766px) and (max-width: 1199px) {
+
+    .coy-logo {
+        display: block;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main2 {
+        margin-top: 50px;
+    }
+
+    .sub-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub-mainright {
+        margin-right: 250px;
+    }
+
+    .mobile-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section-a {
+        margin-top: 50px;
+    }
+}
+ 
+/**************** For small screens ***************/
+@media (min-width: 577px) and (max-width: 765px) {
+
+    .coy-logo {
+        display: block;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main2 {
+        margin-top: 50px;
+    }
+
+    .sub-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub-mainright {
+        margin-right: 250px;
+    }
+
+    .mobile-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section-a {
+        margin-top: 50px;
+    }
+}
+ 
+/**************** For extra small screens ***************/
+@media (max-width: 576px) {
+
+    .coy-logo {
+        display: block;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main2 {
+        margin-top: 50px;
+    }
+
+    .sub-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub-mainright {
+        margin-right: 250px;
+    }
+
+    .mobile-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section-a {
+        margin-top: 50px;
+    }
+}
+
+/**************** For micro screens ***************/
+@media (max-width: 300px) {
+
+    .coy-logo {
+        display: block;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-main2 {
+        margin-top: 50px;
+    }
+
+    .sub-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub-mainright {
+        margin-right: 250px;
+    }
+
+    .mobile-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section-a {
+        margin-top: 50px;
+    }
+}
+
